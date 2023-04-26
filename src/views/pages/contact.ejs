@@ -1,0 +1,13 @@
+<%- include('../partials/start'); -%>
+
+    <% if (success_msg && success_msg.length > 0) { %>
+        <div class="success_msg">
+          <%= success_msg %>
+        </div>
+    <% } %>
+
+    <%- include('../layouts/header'); -%>
+    <%- include('../layouts/contact'); -%>
+    <%- include('../layouts/footer'); -%>
+
+<%- include('../partials/end'); -%>

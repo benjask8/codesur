@@ -1,0 +1,21 @@
+<h2 class="title-h2">Contacto</h2>
+<div class="contact-container">
+    <div class="contact-img">
+        <img src="images/contact-us.svg" alt="">
+    </div>
+    <form action="/contact/send" method="POST" class="contact-form">
+        <div class="contact-form-inputs">
+            <div class="contact-input-box">
+                <label for="guy-input">Nombre</label>
+                <input type="text" class="contact-form-input" placeholder="Nombre" required name="guy" id="guy-input">
+            </div>
+            <div class="contact-input-box">
+                <label for="subj-input">Asunto</label>
+                <input type="text" class="contact-form-input" placeholder="Asunto" required name="subj" id="subj-input">
+            </div>
+        </div>
+        <label for="txt-input">Mensaje</label>
+        <textarea name="txt" class="contact-form-textarea" placeholder="Mensaje" required id="txt-input" cols="30" rows="10"></textarea>
+        <input type="submit" value="Enviar Mensaje">
+    </form>
+</div>
