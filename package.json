@@ -1,4 +1,11 @@
 {
+
+    "name": "codeSur",
+    "version": "0.1.0",
+    "scripts": {
+       "build": "node index.js",
+       "start": "node index.js"
+    },
   "dependencies": {
     "body-parser": "^1.20.2",
     "connect-flash": "^0.1.1",
